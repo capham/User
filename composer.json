@@ -1,5 +1,5 @@
 {
-  "name": "idavoll/user-module",
+  "name": "capham/user-module",
   "type": "asgard-module",
   "description": "User module for AsgardCMS. Handles the authentication and authorisation as well as the user management.",
   "keywords": [
@@ -10,6 +10,10 @@
   ],
   "license": "MIT",
   "authors": [
+    {
+      "name": "Ca Pham",
+      "email": "capham89@gmail.com"
+    },
     {
       "name": "Nicolas Widart",
       "email": "info@asgardcms.com",
@@ -42,11 +46,6 @@
   "autoload-dev": {
     "psr-4": {
       "Modules\\User\\Tests\\": "Tests"
-    }
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "4.0.x-dev"
     }
   },
   "minimum-stability": "dev",
